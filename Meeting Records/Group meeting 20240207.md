@@ -24,7 +24,7 @@
 
 2、encode: all columns we need - ALL
 
-3、write in details regarding to the task1 and task2(Maybe use OneDrive and share with group members) - Yike, Kehan
+3、write in details regarding to the task1 and task2(Maybe use OneDrive and share with group members) - Yike, Kehan(inital); Calvin(polish)
 
 4、calculate the distance/similarity matrix of the data(Task 3) - Week 15(continue in week 16 if necessary) - Calvin
 
