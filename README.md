@@ -8,3 +8,9 @@ Problem Assigned: Etcembly Ltd
 Group Members: YIKE ZHANG,  KEHAN LI,  TIANAO HU,  CALVIN CAMERON-COLE
 
 Shared documents: Report - https://uob-my.sharepoint.com/:w:/g/personal/ey23932_bristol_ac_uk/EU-7fGrh6CNJlaxghimRC3gBe6KY66ewp9YvvRsK61Q7yw
+
+AWS account: 
+
+​	Username: ey23932@bristol.ac.uk
+
+​	password: @dsmpgroup12
