@@ -13,7 +13,7 @@ df.loc[:, 'species'] = df['species'].astype('category').cat.codes  #{HomoSapiens
 df.loc[:, 'gene'] = df['gene'].astype('category').cat.codes  #{TRA:0, TRB:1}
 df.loc[:, 'mhc.class'] = df['mhc.class'].astype('category').cat.codes  #{MHCI:0, MHCII:1}
 
-df[['v.seg', 'j.seg']] = df['v.segm'].str.split('/', expand=True)
+df[['v.seg', 'd.segm']] = df['v.segm'].str.split('/', expand=True)
 df = df.drop(columns = 'v.segm')
 
 
