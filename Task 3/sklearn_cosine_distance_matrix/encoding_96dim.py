@@ -122,8 +122,11 @@ def Encoding96(seq):
         kk=vkk[ii]
         bl62np[kk]=np.array(list(X[ii,])+[0]*Ndim*5)    
 
+    #ST is the starting position of CDR3 sequence, normally the first three and the last two letters are omitted.
+    ST = 3
+    sub_seq = seq[ST:-2]
 
-    sL=list(seq)
+    sL=list(sub_seq)
     x=np.array([0]*n0)
     for ii in range(len(sL)):
         x = np.dot(M6, (x+bl62np[sL[ii]]))

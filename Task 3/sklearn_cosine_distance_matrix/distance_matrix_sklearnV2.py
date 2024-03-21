@@ -24,7 +24,7 @@ for i in id.unique().tolist():
         cdr_combined.append(df.at[index[0], 'cdr3'] + df.at[index[1], 'cdr3'])
 
 cdr_list = [cdr_alpha, cdr_beta, cdr_combined]
-
+'''
 
 
 #ENCODE AND VECTORISE
@@ -78,4 +78,4 @@ for i in range(N):
         pairwise_matrix[i, j] = condensed_vector[index]
         index += 1
 
-print(pairwise_matrix)
+print(pairwise_matrix)'''

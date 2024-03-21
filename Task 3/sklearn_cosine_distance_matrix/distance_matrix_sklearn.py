@@ -69,7 +69,7 @@ plt.show()
 
 
 
-'''# CONDENSE AND SAVE HALF OF THE SYMMETRICAL DISTANCE MATRICES
+# CONDENSE AND SAVE HALF OF THE SYMMETRICAL DISTANCE MATRICES
 condensed_distance_matrices = []
 for matrix in pairwise_distance_matrices:
     condensed_matrix = matrix[np.triu_indices(matrix.shape[0], k=1)]
@@ -92,4 +92,4 @@ for i in range(N):
         pairwise_matrix[i, j] = condensed_vector[index]
         index += 1
 
-print(pairwise_matrix)'''
+print(pairwise_matrix)
